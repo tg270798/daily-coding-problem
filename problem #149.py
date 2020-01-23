@@ -1,7 +1,7 @@
 def sum1(lis,start,end):
-    sublis= []
+    #sublis= []
     add = 0
-    sublis = lis[start:end]
+    sublis = list(lis[start:end])
     for i in range(len(sublis)):
         add = add + sublis[i]
     
